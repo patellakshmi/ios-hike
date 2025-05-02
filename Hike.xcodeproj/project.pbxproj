@@ -19,6 +19,7 @@
 		910567DD2DC54F8500A61168 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910567DC2DC54F8500A61168 /* ColorExtension.swift */; };
 		910567DF2DC55C8200A61168 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910567DE2DC55C8200A61168 /* CustomButtonView.swift */; };
 		910567E12DC572D600A61168 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910567E02DC572D600A61168 /* CustomCircleView.swift */; };
+		910567E32DC57BD800A61168 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910567E22DC57BD800A61168 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		910567DC2DC54F8500A61168 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		910567DE2DC55C8200A61168 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		910567E02DC572D600A61168 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		910567E22DC57BD800A61168 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				910567D92DC54D3300A61168 /* CustomBackgroundView.swift */,
 				910567DE2DC55C8200A61168 /* CustomButtonView.swift */,
 				910567E02DC572D600A61168 /* CustomCircleView.swift */,
+				910567E22DC57BD800A61168 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				910567AD2DC5488000A61168 /* HikeApp.swift in Sources */,
 				910567E12DC572D600A61168 /* CustomCircleView.swift in Sources */,
 				910567DF2DC55C8200A61168 /* CustomButtonView.swift in Sources */,
+				910567E32DC57BD800A61168 /* MotionAnimationView.swift in Sources */,
 				910567DA2DC54D3300A61168 /* CustomBackgroundView.swift in Sources */,
 				910567DD2DC54F8500A61168 /* ColorExtension.swift in Sources */,
 			);
