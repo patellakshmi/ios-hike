@@ -1,0 +1,32 @@
+//
+//  CustomCircleView.swift
+//  Hike
+//
+//  Created by RE on 03/05/25.
+//
+
+import SwiftUI
+
+struct CustomCircleView: View {
+    @State private var isAnimateGradient: Bool = false
+    
+    
+    var body: some View {
+        Circle()
+            .fill(
+                LinearGradient(colors: [ Color("ColorIndigoMedium"), Color("ColorSalmonLight")], startPoint: isAnimateGradient ?  .topLeading : .bottomLeading, endPoint: isAnimateGradient ?  .bottomTrailing : .topLeading)
+            )
+            .onAppear{
+                withAnimation(.linear(duration: 3.0).repeatForever(autoreverses:true)){
+                    isAnimateGradient.toggle()
+                }
+            }
+            .frame(width: 256, height: 256)
+    }
+}
+
+struct CustomCircleView_Previews: PreviewProvider {
+    static var previews: some View {
+        CustomCircleView()
+    }
+}
