@@ -11,6 +11,7 @@ struct CardView: View {
     
     @State private var imageNumber:Int = 1
     @State private var raandomNumber:Int = 1
+    @State private var isShowingSheet:Bool = false
     
     func randomImage(){
         raandomNumber = Int.random(in: 1...5)
@@ -35,12 +36,19 @@ struct CardView: View {
                         )
                         
                        
+                        Spacer()
                         
                         Button{
                             //Action : show a sheet
                             print("The button pressed")
+                            isShowingSheet.toggle()
                         } label: {
                             CustomButtonView()
+                        }
+                        .sheet(isPresented: $isShowingSheet){
+                            SettingView()
+                                .presentationDragIndicator(.visible)
+                                .presentationDetents([.medium, .large])
                         }
                     }
                     
